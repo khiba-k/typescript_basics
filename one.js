@@ -1,5 +1,16 @@
-function me() {
+function MyName() {
     var name = "Khiba";
-    var age = "nineteen";
-    return (name + age);
+    return (name);
 }
+;
+function MyAge() {
+    var age = 19;
+    return (age);
+}
+
+var MyNameIs = document.getElementById("name");
+
+var MyAgeIs = document.getElementById("age");
+
+MyNameIs.innerHTML = MyName();
+MyAgeIs.innerHTML = MyAge();

@@ -1,6 +1,11 @@
-function me(): string {
-    var name: string = "Khiba"
-    var age: string = "nineteen";
+function MyName(): string {
+    var name: string = "Khiba";
 
-    return (name + age);
-}
+    return (name);
+};
+
+function MyAge(): number {
+    var age: number = 19;
+
+    return (age);
+};
